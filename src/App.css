@@ -1,0 +1,353 @@
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-left: 300px;
+  margin-right: 300px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #ffa500, #ff0000);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  height: 530px;
+  margin: auto;
+  background: #fff;
+  margin-top: 130px;
+  border-radius: 10px;
+  opacity: 99%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-container img {
+  height: 170px;
+  width: auto;
+}
+
+.login-container h5 {
+  margin-top: 0;
+  background-image: linear-gradient(to right, #ffa500, #ff0000);
+  background-clip: text;
+  color: transparent;
+  font-size: 17px;
+}
+
+.input-group label {
+  text-align: left;
+  margin-left: 62px;
+  display: block;
+  color: #ffa500;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.input-group input {
+  width: 270px;
+  height: 30px;
+  border: 1px solid rgb(243, 133, 8);
+  border-radius: 5px;
+  outline: 0;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.input-group input:focus {
+  border-color: rgb(255, 45, 45);
+}
+
+.login-btn {
+  font-size: 18px;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 276px;
+  height: 50px;
+  background: linear-gradient(to bottom right, #ffa500, #ff0000);
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 100%;
+}
+
+.login-container .signup a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-container .signup a:hover {
+  color: #ff0000;
+}
+
+.login-container .login-error {
+  color: #ff0000;
+  font-size: 15px;
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+  height: 720px;
+  margin: auto;
+  background: #fff;
+  margin-top: 130px;
+  border-radius: 10px;
+  opacity: 99%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.signup-container img {
+  height: 170px;
+  width: auto;
+}
+
+.signup-container h5 {
+  margin-top: 0;
+  background-image: linear-gradient(to right, #ffa500, #ff0000);
+  background-clip: text;
+  color: transparent;
+  font-size: 17px;
+}
+
+.signup-btn {
+  font-size: 18px;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 276px;
+  height: 50px;
+  background: linear-gradient(to bottom right, #ffa500, #ff0000);
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  opacity: 100%;
+}
+
+.signup-container .signup a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-container .signup a:hover {
+  color: #ff0000;
+}
+
+.signup-container .register-success {
+  color: #ffa500;
+}
+
+.signup-container .password-validation {
+  color: #ff0000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navbar .app-name {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.navbar button {
+  background-color: #302b2b;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 19px;
+  width: 120px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 95%;
+}
+
+.navbar button:hover {
+  opacity: 100%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 22;
+}
+
+.home-container h1 {
+  font-size: 50px;
+}
+
+.home-container .first-name {
+  color: #d35400;
+}
+
+.home-container .add-container {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.add-expense,
+.add-income {
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.add-expense label,
+.add-income label {
+  margin-left: 105px;
+  font-weight: 600;
+}
+
+.add-btn {
+  font-size: 18px;
+  margin-top: 20px;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 276px;
+  height: 50px;
+  background: linear-gradient(to bottom right, #ffa500, #ff0000);
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  opacity: 100%;
+}
+
+.total-container,
+.expenses-container,
+.incomes-container {
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  width: 980px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 0 10px;
+  margin-bottom: 20px;
+}
+
+.expenses-container ul,
+.incomes-container ul {
+  list-style-type: none;
+}
+
+.expenses-container li,
+.incomes-container li {
+  color: #ffa500;
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.expenses-container h3 {
+  color: rgb(245, 22, 22);
+}
+
+.incomes-container h3 {
+  color: rgb(8, 199, 8);
+}
+
+.total-container h3 {
+  color: rgb(247, 210, 47);
+}
+
+.expenses-container button,
+.incomes-container button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.success-message {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  animation: fadeOut 6s ease-in-out;
+}
+
+.success-delete {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #bb2f2f;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  animation: fadeOut 6s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.dropdown-container {
+  text-align: center;
+  padding: 10px 0 20px;
+}
+
+.dropdown-container label {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dropdown-container select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
